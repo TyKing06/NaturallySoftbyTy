@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naturally Soft by Ty — Scrubs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bilbo&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+  <nav class="topnav" id="topnav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Naturally Soft <span>by Ty</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+       <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" >Home</a></li>
+		<li><a href="scrubs.html" class="active">Scrubs</a></li>
+		<li><a href="oils.html">Oils</a></li> 
+		<li><a href="soaps.html">Soaps</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="shoppingcart.html">Cart 🛒</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="products-page-hero">
+    <div class="header-inner">
+      <img src="img/logo.png" alt="Naturally Soft Logo" class="header-logo">
+      <div class="header-text">
+        <h1 class="header-title">Scrubs</h1>
+        <p class="header-sub">Body Scrubs &amp; Lip Scrubs · 100% Natural · Small Batch</p>
+      </div>
+      <img src="img/logo.png" alt="Naturally Soft Logo" class="header-logo">
+    </div>
+  </header>
+
+
+  <main>
+
+    
+    <section class="product-section" id="body-scrubs">
+      <div class="container">
+        <div class="product-section-header">
+          <p class="section-eyebrow">Exfoliate &amp; Glow</p>
+          <h2>Sugar Body Scrubs</h2>
+          <p>Silky-smooth results with every use. Choose your scent and your size! Made fresh in small batches.</p>
+        </div>
+
+        <div class="product-items-grid">
+
+          <div class="product-item-card fade-up">
+            <div class="product-item-top">
+              <div class="product-item-emoji">🫧</div>
+              <h3>Lavender &amp; Honey Scrub</h3>
+              <p>Calming, sweet, and deeply nourishing.</p>
+            </div>
+            <div class="product-item-body">
+              <div class="ingredient-badges">
+                <span class="badge">Raw Honey</span>
+                <span class="badge">Lavender Oil</span>
+                <span class="badge">Cane Sugar</span>
+                <span class="badge">Vitamin E</span>
+              </div>
+              <p class="size-label">Select Size</p>
+              <div class="size-options">
+                <button class="size-btn selected" onclick="selectSize(this)">4 oz<span class="price-tag">$8</span></button>
+                <button class="size-btn" onclick="selectSize(this)">8 oz<span class="price-tag">$14</span></button>
+                <button class="size-btn" onclick="selectSize(this)">16 oz<span class="price-tag">$24</span></button>
+              </div>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-item-card fade-up">
+            <div class="product-item-top">
+              <div class="product-item-emoji">🥥</div>
+              <h3>Coconut &amp; Vanilla Scrub</h3>
+              <p>Warm, tropical, and ultra-moisturizing.</p>
+            </div>
+            <div class="product-item-body">
+              <div class="ingredient-badges">
+                <span class="badge">Coconut Oil</span>
+                <span class="badge">Vanilla Extract</span>
+                <span class="badge">Cane Sugar</span>
+                <span class="badge">Sweet Almond Oil</span>
+              </div>
+              <p class="size-label">Select Size</p>
+              <div class="size-options">
+                <button class="size-btn selected" onclick="selectSize(this)">4 oz<span class="price-tag">$8</span></button>
+                <button class="size-btn" onclick="selectSize(this)">8 oz<span class="price-tag">$14</span></button>
+                <button class="size-btn" onclick="selectSize(this)">16 oz<span class="price-tag">$24</span></button>
+              </div>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-item-card fade-up">
+            <div class="product-item-top">
+              <div class="product-item-emoji">🍊</div>
+              <h3>Citrus Burst Scrub</h3>
+              <p>Energizing, bright, and skin-brightening.</p>
+            </div>
+            <div class="product-item-body">
+              <div class="ingredient-badges">
+                <span class="badge">Orange Peel</span>
+                <span class="badge">Lemon Oil</span>
+                <span class="badge">Cane Sugar</span>
+                <span class="badge">Jojoba Oil</span>
+              </div>
+              <p class="size-label">Select Size</p>
+              <div class="size-options">
+                <button class="size-btn selected" onclick="selectSize(this)">4 oz<span class="price-tag">$8</span></button>
+                <button class="size-btn" onclick="selectSize(this)">8 oz<span class="price-tag">$14</span></button>
+                <button class="size-btn" onclick="selectSize(this)">16 oz<span class="price-tag">$24</span></button>
+              </div>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="product-section" id="lip-scrubs">
+      <div class="container">
+        <div class="product-section-header">
+          <p class="section-eyebrow">Smooth &amp; Hydrate</p>
+          <h2>Lip Scrubs</h2>
+          <p>Gently exfoliate and hydrate lips for a naturally soft, smooth pout.</p>
+        </div>
+
+        <div class="product-items-grid">
+
+          <div class="product-item-card fade-up">
+            <div class="product-item-top">
+              <div class="product-item-emoji">💋</div>
+              <h3>Brown Sugar Vanilla</h3>
+              <p>Sweet, gentle exfoliation for soft lips.</p>
+            </div>
+            <div class="product-item-body">
+              <div class="ingredient-badges">
+                <span class="badge">Brown Sugar</span>
+                <span class="badge">Vanilla Extract</span>
+                <span class="badge">Coconut Oil</span>
+                <span class="badge">Vitamin E</span>
+              </div>
+              <p class="size-label">Select Size</p>
+              <div class="size-options">
+                <button class="size-btn selected" onclick="selectSize(this)">0.5 oz<span class="price-tag">$5</span></button>
+                <button class="size-btn" onclick="selectSize(this)">1 oz<span class="price-tag">$8</span></button>
+              </div>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-item-card fade-up">
+            <div class="product-item-top">
+              <div class="product-item-emoji">🍉</div>
+              <h3>Watermelon Mint</h3>
+              <p>Refreshing tingle with hydrating results.</p>
+            </div>
+            <div class="product-item-body">
+              <div class="ingredient-badges">
+                <span class="badge">Cane Sugar</span>
+                <span class="badge">Peppermint Oil</span>
+                <span class="badge">Shea Butter</span>
+                <span class="badge">Watermelon Seed Oil</span>
+              </div>
+              <p class="size-label">Select Size</p>
+              <div class="size-options">
+                <button class="size-btn selected" onclick="selectSize(this)">0.5 oz<span class="price-tag">$5</span></button>
+                <button class="size-btn" onclick="selectSize(this)">1 oz<span class="price-tag">$8</span></button>
+              </div>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-item-card fade-up">
+            <div class="product-item-top">
+              <div class="product-item-emoji">🍯</div>
+              <h3>Honey &amp; Cinnamon</h3>
+              <p>Warming plumping blend for fuller-looking lips.</p>
+            </div>
+            <div class="product-item-body">
+              <div class="ingredient-badges">
+                <span class="badge">Raw Honey</span>
+                <span class="badge">Cinnamon</span>
+                <span class="badge">Coconut Oil</span>
+                <span class="badge">Castor Oil</span>
+              </div>
+              <p class="size-label">Select Size</p>
+              <div class="size-options">
+                <button class="size-btn selected" onclick="selectSize(this)">0.5 oz<span class="price-tag">$5</span></button>
+                <button class="size-btn" onclick="selectSize(this)">1 oz<span class="price-tag">$8</span></button>
+              </div>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  
+  </main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<div class="footer-grid">
+				<div class="footer-brand">
+						<div class="footer-logo">Naturally Soft <span>by Ty</span></div>
+							<p>Pure ingredients. Real results.<br>Handcrafted for every body.</p>
+				</div>
+        <div class="footer-links">
+				<h4>Navigate</h4>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="scrubs.html">Scrubs</a></li>
+					<li><a href="soaps.html">Soaps</a></li>
+					<li><a href="oils.html"> Oils</a></li>
+					<li><a href="reviews.html">Reviews</a></li>
+					<li><a href="shoppingcart.html">Cart</a></li>
+				</ul>
+        </div>
+       
+         <div class="footer-contact" id="contact">
+			<h4>Contact Us</h4>
+				<p>We'd love to hear from you. Reach out for custom orders, wholesale inquiries, or just to say hello.We typically answer within 1-2 business days!</p>
+          <ul class="contact-list">
+            <li>📧 <a href="mailto:naturallysoftbyty@yahoo.com">naturallysoftbyty@yahoo.com</a></li>
+            <li>📍 Georgia, USA</li>
+          </ul>
+        </div>
+			<div style="display:flex; align-items:flex-end; justify-content:flex-end;">
+				<a href="#top" class="back-to-top">↑ Back to Top</a>
+			</div>
+      </div>
+     
+      <div class="footer-bottom">
+        <p>&copy; 2021 Naturally Soft by Ty. All rights reserved. Handcrafted with love.</p>
+      </div>
+    </div>
+  </footer>
+
+	
+
+  <script>
+  
+    window.addEventListener('scroll', () => {
+      document.getElementById('topnav').classList.toggle('scrolled', window.scrollY > 40);
+    });
+    document.getElementById('navToggle').addEventListener('click', () => {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+    function selectSize(btn) {
+      const group = btn.closest('.size-options');
+      group.querySelectorAll('.size-btn').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+    }
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+	
+	document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+    button.addEventListener('click', (e) => {
+      
+      const card = e.target.closest('.product-item-card');
+      const name = card.querySelector('h3').innerText;   
+    
+      const selectedSizeBtn = card.querySelector('.size-btn.selected');
+      const size = selectedSizeBtn.childNodes[0].textContent.trim();
+      const priceText = selectedSizeBtn.querySelector('.price-tag').innerText;
+      const price = parseFloat(priceText.replace('$', ''));
+     
+      const product = { name, size, price, qty: 1 };
+      
+      let cart = JSON.parse(localStorage.getItem('cart')) || [];
+      
+      const existingItem = cart.find(item => item.name === name && item.size === size);
+      
+      if (existingItem) {
+        existingItem.qty++;
+      } else {
+        cart.push(product);
+      }
+      
+      localStorage.setItem('cart', JSON.stringify(cart));
+      
+      const originalText = button.innerText;
+      button.innerText = "Added! ✓";
+      button.style.backgroundColor = "#4a7a7a";
+      setTimeout(() => {
+        button.innerText = originalText;
+        button.style.backgroundColor = "";
+      }, 1500);
+    });
+  });
+  document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+    button.addEventListener('click', (e) => {
+      const card = e.target.closest('.product-item-card');
+      const name = card.querySelector('h3').innerText;   
+      const selectedSizeBtn = card.querySelector('.size-btn.selected');
+      const size = selectedSizeBtn.childNodes[0].textContent.trim();
+      const priceText = selectedSizeBtn.querySelector('.price-tag').innerText;
+      const price = parseFloat(priceText.replace('$', ''));
+     
+      const product = { name, size, price, qty: 1 };
+      let cart = JSON.parse(localStorage.getItem('cart')) || [];
+      const existingItem = cart.find(item => item.name === name && item.size === size);
+      
+      if (existingItem) {
+        existingItem.qty++;
+      } else {
+        cart.push(product);
+      }
+      
+      localStorage.setItem('cart', JSON.stringify(cart));
+      
+      // Visual feedback ONLY (no alert box)
+      const originalText = button.innerText;
+      button.innerText = "Added! ✓";
+      button.style.backgroundColor = "#4a7a7a";
+      setTimeout(() => {
+        button.innerText = originalText;
+        button.style.backgroundColor = "";
+      }, 1500);
+    });
+  });
+	
+  </script>
+
+</body>
+</html>

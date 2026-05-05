@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naturally Soft by Ty — Soaps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bilbo&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+
+ <nav class="topnav" id="topnav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Naturally Soft <span>by Ty</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+ 
+     <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+		<li><a href="scrubs.html">Scrubs</a></li>
+		<li><a href="oils.html">Oils</a></li> 
+		<li><a href="soaps.html" class="active">Soaps</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="shoppingcart.html">Cart 🛒</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="products-page-hero">
+    <div class="header-inner">
+      <img src="img/logo.png" alt="Naturally Soft Logo" class="header-logo">
+      <div class="header-text">
+        <h1 class="header-title">Handcrafted Soaps</h1>
+        <p class="header-sub">Gentle · Nourishing · Made with Love</p>
+      </div>
+      <img src="img/logo.png" alt="Naturally Soft Logo" class="header-logo">
+    </div>
+  </header>
+
+ 
+
+  <main>
+
+    <section class="product-section" id="goat-milk">
+      <div class="container">
+        <div class="product-section-header">
+          <p class="section-eyebrow">Creamy &amp; Gentle</p>
+          <h2>Goat Milk Soap</h2>
+          <p>Rich in vitamins and naturally moisturizing — perfect for all skin types, especially sensitive skin.</p>
+        </div>
+
+        <div class="product-items-grid product-items-grid--centered">
+
+          <div class="product-item-card fade-up">
+            <div class="product-item-top">
+              <div class="product-item-emoji">🐐</div>
+              <h3>Classic Goat Milk Bar</h3>
+              <p>Creamy, gentle lather for all skin types.</p>
+            </div>
+            <div class="product-item-body">
+              <div class="ingredient-badges">
+                <span class="badge">Fresh Goat Milk</span>
+                <span class="badge">Shea Butter</span>
+                <span class="badge">Olive Oil</span>
+                <span class="badge">Coconut Oil</span>
+              </div>
+              <p class="size-label">Select Size</p>
+              <div class="size-options">
+                <button class="size-btn selected" onclick="selectSize(this)">3.5 oz Bar<span class="price-tag">$7</span></button>
+                <button class="size-btn" onclick="selectSize(this)">3-Pack<span class="price-tag">$18</span></button>
+                <button class="size-btn" onclick="selectSize(this)">6-Pack<span class="price-tag">$34</span></button>
+              </div>
+					<button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-item-card fade-up">
+            <div class="product-item-top">
+              <div class="product-item-emoji">🌸</div>
+              <h3>Lavender Goat Milk Bar</h3>
+              <p>Calming lavender with all the goodness of goat milk.</p>
+            </div>
+            <div class="product-item-body">
+              <div class="ingredient-badges">
+                <span class="badge">Fresh Goat Milk</span>
+                <span class="badge">Lavender Oil</span>
+                <span class="badge">Shea Butter</span>
+                <span class="badge">Vitamin E</span>
+              </div>
+              <p class="size-label">Select Size</p>
+              <div class="size-options">
+                <button class="size-btn selected" onclick="selectSize(this)">3.5 oz Bar<span class="price-tag">$7</span></button>
+                <button class="size-btn" onclick="selectSize(this)">3-Pack<span class="price-tag">$18</span></button>
+                <button class="size-btn" onclick="selectSize(this)">6-Pack<span class="price-tag">$34</span></button>
+              </div>
+				<button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="product-section" id="oatmeal">
+      <div class="container">
+        <div class="product-section-header">
+          <p class="section-eyebrow">Soothing Relief</p>
+          <h2>Oatmeal Soap</h2>
+          <p>Gentle enough for sensitive skin. Oatmeal calms, soothes, and softens dry or irritated skin naturally.</p>
+        </div>
+
+        <div class="product-items-grid product-items-grid--centered">
+
+          <div class="product-item-card fade-up">
+            <div class="product-item-top">
+              <div class="product-item-emoji">🌾</div>
+              <h3>Classic Oatmeal Bar</h3>
+              <p>Soothing relief for dry, sensitive skin.</p>
+            </div>
+            <div class="product-item-body">
+              <div class="ingredient-badges">
+                <span class="badge">Colloidal Oatmeal</span>
+                <span class="badge">Shea Butter</span>
+                <span class="badge">Coconut Oil</span>
+                <span class="badge">Aloe Vera</span>
+              </div>
+              <p class="size-label">Select Size</p>
+              <div class="size-options">
+                <button class="size-btn selected" onclick="selectSize(this)">3.5 oz Bar<span class="price-tag">$7</span></button>
+                <button class="size-btn" onclick="selectSize(this)">3-Pack<span class="price-tag">$18</span></button>
+                <button class="size-btn" onclick="selectSize(this)">6-Pack<span class="price-tag">$34</span></button>
+              </div>
+				<button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-item-card fade-up">
+            <div class="product-item-top">
+              <div class="product-item-emoji">🍯</div>
+              <h3>Oatmeal &amp; Honey Bar</h3>
+              <p>Moisturizing honey meets the soothing power of oats.</p>
+            </div>
+            <div class="product-item-body">
+              <div class="ingredient-badges">
+                <span class="badge">Colloidal Oatmeal</span>
+                <span class="badge">Raw Honey</span>
+                <span class="badge">Coconut Oil</span>
+                <span class="badge">Vitamin E</span>
+              </div>
+              <p class="size-label">Select Size</p>
+              <div class="size-options">
+                <button class="size-btn selected" onclick="selectSize(this)">3.5 oz Bar<span class="price-tag">$7</span></button>
+                <button class="size-btn" onclick="selectSize(this)">3-Pack<span class="price-tag">$18</span></button>
+                <button class="size-btn" onclick="selectSize(this)">6-Pack<span class="price-tag">$34</span></button>
+              </div>
+   				<button class="add-to-cart-btn">Add to Cart</button>
+			
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="product-section" id="lemon-turmeric">
+      <div class="container">
+        <div class="product-section-header">
+          <p class="section-eyebrow">Brighten &amp; Even</p>
+          <h2>Lemon &amp; Turmeric Soap</h2>
+          <p>A brightening powerhouse. Turmeric and lemon work together to even skin tone and restore natural radiance.</p>
+        </div>
+
+        <div class="product-items-grid product-items-grid--centered">
+
+          <div class="product-item-card fade-up">
+            <div class="product-item-top">
+              <div class="product-item-emoji">🍋</div>
+              <h3>Lemon &amp; Turmeric Bar</h3>
+              <p>Visibly brighter, more even skin tone.</p>
+            </div>
+            <div class="product-item-body">
+              <div class="ingredient-badges">
+                <span class="badge">Turmeric</span>
+                <span class="badge">Lemon Essential Oil</span>
+                <span class="badge">Coconut Oil</span>
+                <span class="badge">Shea Butter</span>
+              </div>
+              <p class="size-label">Select Size</p>
+              <div class="size-options">
+                <button class="size-btn selected" onclick="selectSize(this)">3.5 oz Bar<span class="price-tag">$8</span></button>
+                <button class="size-btn" onclick="selectSize(this)">3-Pack<span class="price-tag">$20</span></button>
+                <button class="size-btn" onclick="selectSize(this)">6-Pack<span class="price-tag">$36</span></button>
+              </div>
+   				<button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-item-card fade-up">
+            <div class="product-item-top">
+              <div class="product-item-emoji">✨</div>
+              <h3>Turmeric &amp; Honey Bar</h3>
+              <p>Brightening turmeric with deep honey moisture.</p>
+            </div>
+            <div class="product-item-body">
+              <div class="ingredient-badges">
+                <span class="badge">Turmeric</span>
+                <span class="badge">Raw Honey</span>
+                <span class="badge">Olive Oil</span>
+                <span class="badge">Vitamin E</span>
+              </div>
+              <p class="size-label">Select Size</p>
+              <div class="size-options">
+                <button class="size-btn selected" onclick="selectSize(this)">3.5 oz Bar<span class="price-tag">$8</span></button>
+                <button class="size-btn" onclick="selectSize(this)">3-Pack<span class="price-tag">$20</span></button>
+                <button class="size-btn" onclick="selectSize(this)">6-Pack<span class="price-tag">$36</span></button>
+              </div>  
+				<button class="add-to-cart-btn">Add to Cart</button>	 
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+   
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">Naturally Soft <span>by Ty</span></div>
+          <p>Pure ingredients. Real results.<br>Handcrafted for every body.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="scrubs.html">Scrubs</a></li>
+            <li><a href="soaps.html">Soaps</a></li>
+            <li><a href="oils.html"> Oils</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="shoppingcart.html">Cart</a></li>
+          </ul>
+        </div>
+       
+      <div class="footer-contact" id="contact">
+          <h4>Contact Us</h4>
+          <p>We'd love to hear from you. Reach out for custom orders, wholesale inquiries, or just to say hello.We typically answer within 1-2 business days! </p>
+          <ul class="contact-list">
+            <li>📧 <a href="mailto:naturallysoftbyty@yahoo.com">naturallysoftbyty@yahoo.com</a></li>
+            <li>📍 Georgia, USA</li>
+          </ul>
+        </div>
+			<div style="display:flex; align-items:flex-end; justify-content:flex-end;">
+				<a href="#top" class="back-to-top">↑ Back to Top</a>
+			</div>
+      </div>
+     
+      <div class="footer-bottom">
+        <p>&copy; 2021 Naturally Soft by Ty. All rights reserved. Handcrafted with love.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      document.getElementById('topnav').classList.toggle('scrolled', window.scrollY > 40);
+    });
+    document.getElementById('navToggle').addEventListener('click', () => {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+    function selectSize(btn) {
+      const group = btn.closest('.size-options');
+      group.querySelectorAll('.size-btn').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+    }
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+	
+	document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+  button.addEventListener('click', (e) => {
+    
+    e.preventDefault(); 
+
+    const card = e.target.closest('.product-item-card');
+    const name = card.querySelector('h3').innerText;   
+    const selectedSizeBtn = card.querySelector('.size-btn.selected');
+    const size = selectedSizeBtn.childNodes[0].textContent.trim();
+    const priceText = selectedSizeBtn.querySelector('.price-tag').innerText;
+    const price = parseFloat(priceText.replace('$', ''));
+   
+    const product = { name, size, price, qty: 1 };
+        
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const existingItem = cart.find(item => item.name === name && item.size === size);
+    
+    if (existingItem) {
+      existingItem.qty++;
+    } else {
+      cart.push(product);
+    }
+    
+    localStorage.setItem('cart', JSON.stringify(cart));
+    
+     const originalText = button.innerText;
+    button.innerText = "Added! ✓";
+    button.style.backgroundColor = "#4a7a7a";
+    setTimeout(() => {
+      button.innerText = originalText;
+      button.style.backgroundColor = "";
+    }, 1500);
+  });
+});
+  </script>
+
+</body>
+</html>

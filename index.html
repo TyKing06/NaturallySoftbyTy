@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naturally Soft by Ty — Homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bilbo&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+ 
+  <nav class="topnav" id="topnav">
+    <div class="nav-container">
+
+      <a href="index.html" class="nav-logo">Naturally Soft <span>by Ty</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" >Home</a></li>
+		<li><a href="scrubs.html">Scrubs</a></li>
+		<li><a href="oils.html">Oils</a></li> 
+		<li><a href="soaps.html">Soaps</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="shoppingcart.html">Cart 🛒</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <img src="img/logo.png" alt="Naturally Soft Logo" class="header-logo">
+      <div class="header-text">
+        <p class="header-eyebrow">100% Natural · Handcrafted · For Every Body</p>
+        <h1 class="header-title">Naturally Soft <em>by Ty</em></h1>
+        <p class="header-sub">Pure ingredients. Real results. Handcrafted with love.</p>
+      </div>
+      <img src="img/logo.png" alt="Naturally Soft Logo" class="header-logo">
+    </div>
+  </header>
+
+ 
+  <main>
+
+   
+    <section class="about-section" id="about">
+		<div class="container">
+        <p class="section-eyebrow">Our Story</p>
+        <h2 class="section-heading">Made with pure ingredients,<br><em>And plenty of love.</em></h2>
+		</div> 
+		
+        <div class="about-grid">
+         
+			<div class="about-text fade-up">
+				<p>Naturally Soft by Ty was born out of a simple belief that what goes on your body matters just as much as what goes in it. Every product is handcrafted using pure, organic ingredients chosen for what they actually do for your skin.</p>
+				<p>Whether you're reaching for a sugar scrub, a soothing soap, or a nourishing beard oil, you're getting something made with intention, care, and only ingredients you can pronounce.</p>
+        
+             </div>
+		</div>	  
+    </section>
+
+      <section class="products-section" id="products">
+      <div class="container">
+        <p class="section-eyebrow">What We Make</p>
+        <h2 class="section-heading">Shop by Category</h2>
+		</div>
+		</section>
+
+        <div class="product-grid">
+
+          <a href="scrubs.html" class="product-card fade-up">
+            <div class="product-icon">🫧</div>
+            <h3>Sugar Body Scrubs</h3>
+            <p>Exfoliate and nourish in one step. Our scrubs leave skin silky, smooth, and glowing.</p>
+            <span class="card-link">Shop Scrubs →</span>
+          </a>
+
+          <a href="soaps.html" class="product-card fade-up">
+            <div class="product-icon">🧼</div>
+            <h3>Soaps </h3>
+            <p>Gentle, creamy, and deeply moisturizing. Perfect for sensitive and dry skin.</p>
+            <span class="card-link">Shop Soaps →</span>
+          </a>
+
+          <a href="oils.html" class="product-card fade-up">
+            <div class="product-icon">🌿</div>
+            <h3>Oils</h3>
+            <p>All-natural oils crafted to condition, soften, and add shine — for every hair type.</p>
+            <span class="card-link">Shop Oils →</span>
+          </a>
+
+        </div>
+
+      
+    
+	</main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <div class="footer-logo">Naturally Soft <span>by Ty</span></div>
+          <p>Pure ingredients. Real results.<br>Handcrafted for every body.</p>
+        </div>
+   
+	 <div class="footer-links">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="scrubs.html">Scrubs</a></li>
+            <li><a href="soaps.html">Soaps</a></li>
+            <li><a href="oils.html"> Oils</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="shoppingcart.html">Cart</a></li>
+          </ul>
+        </div>
+        
+       
+
+        <div class="footer-contact" id="contact">
+          <h4>Contact Us</h4>
+          <p>We'd love to hear from you. Reach out for custom orders, wholesale inquiries, or just to say hello.</p>
+          <ul class="contact-list">
+            <li>📧 <a href="mailto:naturallysoftbyty@yahoo.com">naturallysoftbyty@yahoo.com</a></li>
+            <li>📍 Georgia, USA</li>
+          </ul>
+        </div>
+			<div style="display:flex; align-items:flex-end; justify-content:flex-end;">
+				<a href="#top" class="back-to-top">↑ Back to Top</a>
+			</div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2021 Naturally Soft by Ty. All rights reserved. Handcrafted with love.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    
+    window.addEventListener('scroll', () => {
+      document.getElementById('topnav').classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    
+    document.getElementById('navToggle').addEventListener('click', () => {
+      document.getElementById('navLinks').classList.toggle('open');
+      document.getElementById('navToggle').classList.toggle('open');
+    });
+
+        const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>

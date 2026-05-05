@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naturally Soft by Ty — Beard &amp; Hair Oils</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bilbo&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+  <nav class="topnav" id="topnav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Naturally Soft <span>by Ty</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+		<li><a href="scrubs.html">Scrubs</a></li>
+		<li><a href="oils.html" class="active">Oils</a></li> 
+		<li><a href="soaps.html">Soaps</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="shoppingcart.html">Cart 🛒</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="products-page-hero">
+    <div class="header-inner">
+      <img src="img/logo.png" alt="Naturally Soft Logo" class="header-logo">
+      <div class="header-text">
+        <h1 class="header-title">Beard &amp; Hair Oils</h1>
+        <p class="header-sub">All-Natural · Conditioning · For Every Hair Type</p>
+      </div>
+      <img src="img/logo.png" alt="Naturally Soft Logo" class="header-logo">
+    </div>
+  </header>
+
+  
+
+  <main>
+
+    
+    <section class="product-section" id="beard-oils">
+      <div class="container">
+        <div class="product-section-header">
+          <p class="section-eyebrow">Condition &amp; Soften</p>
+          <h2>Beard Oils</h2>
+          <p>Tame, soften, and nourish your beard naturally. No harsh chemicals — just pure, handcrafted goodness.</p>
+        </div>
+
+        <div class="product-items-grid">
+
+          <div class="product-item-card fade-up">
+            <div class="product-item-top">
+              <div class="product-item-emoji">🌿</div>
+              <h3>Signature Beard Oil</h3>
+              <p>Our bestselling blend for a soft, healthy beard.</p>
+            </div>
+            <div class="product-item-body">
+              <div class="ingredient-badges">
+                <span class="badge">Argan Oil</span>
+                <span class="badge">Jojoba Oil</span>
+                <span class="badge">Castor Oil</span>
+                <span class="badge">Vitamin E</span>
+              </div>
+              <p class="size-label">Select Size</p>
+              <div class="size-options">
+                <button class="size-btn selected" onclick="selectSize(this)">1 oz<span class="price-tag">$10</span></button>
+                <button class="size-btn" onclick="selectSize(this)">2 oz<span class="price-tag">$16</span></button>
+                <button class="size-btn" onclick="selectSize(this)">4 oz<span class="price-tag">$28</span></button>
+              </div>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-item-card fade-up">
+            <div class="product-item-top">
+              <div class="product-item-emoji">🪨</div>
+              <h3>Unscented Beard Oil</h3>
+              <p>Pure conditioning with zero fragrance — for sensitive skin.</p>
+            </div>
+            <div class="product-item-body">
+              <div class="ingredient-badges">
+                <span class="badge">Sweet Almond Oil</span>
+                <span class="badge">Jojoba Oil</span>
+                <span class="badge">Castor Oil</span>
+                <span class="badge">Vitamin E</span>
+              </div>
+              <p class="size-label">Select Size</p>
+              <div class="size-options">
+                <button class="size-btn selected" onclick="selectSize(this)">1 oz<span class="price-tag">$10</span></button>
+                <button class="size-btn" onclick="selectSize(this)">2 oz<span class="price-tag">$16</span></button>
+                <button class="size-btn" onclick="selectSize(this)">4 oz<span class="price-tag">$28</span></button>
+              </div>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-item-card fade-up">
+            <div class="product-item-top">
+              <div class="product-item-emoji">🌲</div>
+              <h3>Cedar &amp; Sandalwood Oil</h3>
+              <p>Rich, woodsy scent with deep conditioning properties.</p>
+            </div>
+            <div class="product-item-body">
+              <div class="ingredient-badges">
+                <span class="badge">Cedarwood Oil</span>
+                <span class="badge">Sandalwood Oil</span>
+                <span class="badge">Argan Oil</span>
+                <span class="badge">Castor Oil</span>
+              </div>
+              <p class="size-label">Select Size</p>
+              <div class="size-options">
+                <button class="size-btn selected" onclick="selectSize(this)">1 oz<span class="price-tag">$10</span></button>
+                <button class="size-btn" onclick="selectSize(this)">2 oz<span class="price-tag">$16</span></button>
+                <button class="size-btn" onclick="selectSize(this)">4 oz<span class="price-tag">$28</span></button>
+              </div>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="product-section" id="hair-oils">
+      <div class="container">
+        <div class="product-section-header">
+          <p class="section-eyebrow">Nourish &amp; Shine</p>
+          <h2>Hair Oils</h2>
+          <p>Frizz control, deep moisture, and natural shine — for every hair type and texture.</p>
+        </div>
+
+        <div class="product-items-grid">
+
+          <div class="product-item-card fade-up">
+            <div class="product-item-top">
+              <div class="product-item-emoji">💆</div>
+              <h3>Nourishing Hair Oil</h3>
+              <p>Frizz control, moisture, and natural shine.</p>
+            </div>
+            <div class="product-item-body">
+              <div class="ingredient-badges">
+                <span class="badge">Castor Oil</span>
+                <span class="badge">Rosemary Oil</span>
+                <span class="badge">Avocado Oil</span>
+                <span class="badge">Peppermint</span>
+              </div>
+              <p class="size-label">Select Size</p>
+              <div class="size-options">
+                <button class="size-btn selected" onclick="selectSize(this)">2 oz<span class="price-tag">$12</span></button>
+                <button class="size-btn" onclick="selectSize(this)">4 oz<span class="price-tag">$20</span></button>
+                <button class="size-btn" onclick="selectSize(this)">8 oz<span class="price-tag">$34</span></button>
+              </div>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-item-card fade-up">
+            <div class="product-item-top">
+              <div class="product-item-emoji">🌹</div>
+              <h3>Growth &amp; Scalp Oil</h3>
+              <p>Stimulate growth and soothe an itchy scalp naturally.</p>
+            </div>
+            <div class="product-item-body">
+              <div class="ingredient-badges">
+                <span class="badge">Castor Oil</span>
+                <span class="badge">Peppermint Oil</span>
+                <span class="badge">Tea Tree Oil</span>
+                <span class="badge">Jojoba Oil</span>
+              </div>
+              <p class="size-label">Select Size</p>
+              <div class="size-options">
+                <button class="size-btn selected" onclick="selectSize(this)">2 oz<span class="price-tag">$12</span></button>
+                <button class="size-btn" onclick="selectSize(this)">4 oz<span class="price-tag">$20</span></button>
+                <button class="size-btn" onclick="selectSize(this)">8 oz<span class="price-tag">$34</span></button>
+              </div>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-item-card fade-up">
+            <div class="product-item-top">
+              <div class="product-item-emoji">🥥</div>
+              <h3>Coconut &amp; Argan Oil</h3>
+              <p>Deep conditioning shine treatment for all hair types.</p>
+            </div>
+            <div class="product-item-body">
+              <div class="ingredient-badges">
+                <span class="badge">Coconut Oil</span>
+                <span class="badge">Argan Oil</span>
+                <span class="badge">Sweet Almond Oil</span>
+                <span class="badge">Vitamin E</span>
+              </div>
+              <p class="size-label">Select Size</p>
+              <div class="size-options">
+                <button class="size-btn selected" onclick="selectSize(this)">2 oz<span class="price-tag">$12</span></button>
+                <button class="size-btn" onclick="selectSize(this)">4 oz<span class="price-tag">$20</span></button>
+                <button class="size-btn" onclick="selectSize(this)">8 oz<span class="price-tag">$34</span></button>
+              </div>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+ 
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">Naturally Soft <span>by Ty</span></div>
+          <p>Pure ingredients. Real results.<br>Handcrafted for every body.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="scrubs.html">Scrubs</a></li>
+            <li><a href="soaps.html">Soaps</a></li>
+            <li><a href="oils.html">Oils</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="shoppingcart.html">Cart</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact" id="contact">
+          <h4>Contact Us</h4>
+          <p>We'd love to hear from you. Reach out for custom orders, wholesale inquiries, or just to say hello.We typically answer within 1-2 business days!</p>
+          <ul class="contact-list">
+            <li>📧 <a href="mailto:naturallysoftbyty@yahoo.com">naturallysoftbyty@yahoo.com</a></li>
+            <li>📍 Georgia, USA</li>
+          </ul>
+        </div>
+			<div style="display:flex; align-items:flex-end; justify-content:flex-end;">
+				<a href="#top" class="back-to-top">↑ Back to Top</a>
+			</div>
+      </div>
+     
+      <div class="footer-bottom">
+        <p>&copy; 2021 Naturally Soft by Ty. All rights reserved. Handcrafted with love.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      document.getElementById('topnav').classList.toggle('scrolled', window.scrollY > 40);
+    });
+    document.getElementById('navToggle').addEventListener('click', () => {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+    function selectSize(btn) {
+      const group = btn.closest('.size-options');
+      group.querySelectorAll('.size-btn').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+    }
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+	
+	document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+  button.addEventListener('click', (e) => {
+   
+    e.preventDefault(); 
+
+    const card = e.target.closest('.product-item-card');
+    const name = card.querySelector('h3').innerText;   
+    const selectedSizeBtn = card.querySelector('.size-btn.selected');
+    const size = selectedSizeBtn.childNodes[0].textContent.trim();
+    const priceText = selectedSizeBtn.querySelector('.price-tag').innerText;
+    const price = parseFloat(priceText.replace('$', ''));
+   
+    const product = { name, size, price, qty: 1 };
+        
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const existingItem = cart.find(item => item.name === name && item.size === size);
+    
+    if (existingItem) {
+      existingItem.qty++;
+    } else {
+      cart.push(product);
+    }
+    
+    localStorage.setItem('cart', JSON.stringify(cart));
+        
+    const originalText = button.innerText;
+    button.innerText = "Added! ✓";
+    button.style.backgroundColor = "#4a7a7a";
+    setTimeout(() => {
+      button.innerText = originalText;
+      button.style.backgroundColor = "";
+    }, 1500);
+  });
+});
+	
+  </script>
+
+</body>
+</html>
