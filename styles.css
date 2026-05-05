@@ -911,7 +911,7 @@ em {
   padding-top: 20px;
   font-family: var(--f-ui);
   font-size: 0.8rem;
-  color: rgba(255, 255, 255, 0.4);
+  color: #006d6a;
 }
 
 .back-to-top {
