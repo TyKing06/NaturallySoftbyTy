@@ -1,5 +1,5 @@
 :root {
-  --primary: #009B99;
+  --primary: #006d6a;
   --dark: #005F5F;
   --teal-light: #66CDCC;
   --bg: #E6F7F7;
@@ -90,7 +90,7 @@ em {
   font-weight: 500;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--primary);
+  color: #0b3d3b;
   margin-bottom: 0.5rem;
   text-align: center;
 }
