@@ -912,6 +912,7 @@ em {
   font-family: var(--f-ui);
   font-size: 0.8rem;
   color: #006d6a;
+  font-weight: bold;
 }
 
 .back-to-top {
